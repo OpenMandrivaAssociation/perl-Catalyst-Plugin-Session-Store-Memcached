@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Memcached storage for Catalyst sessions
 License:    GPL+ or Artistic
@@ -11,6 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl-Class-Data-Inheritable
 BuildRequires: perl(Cache::Memcached::Managed)
 BuildRequires: perl(Catalyst::Plugin::Session)
 BuildRequires: perl(ExtUtils::MakeMaker)
