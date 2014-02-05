@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-Session-Store-Memcached-0.04.tar.gz: 2410df98f3ff833760d98b9c562ce83080b61979
 sources:
-  "Catalyst-Plugin-Session-Store-Memcached-0.04.tar.gz": 2410df98f3ff833760d98b9c562ce83080b61979
+  Catalyst-Plugin-Session-Store-Memcached-0.05.tar.gz: 90f7c6d9881d145e9aeb579835bea613ed4879f7
