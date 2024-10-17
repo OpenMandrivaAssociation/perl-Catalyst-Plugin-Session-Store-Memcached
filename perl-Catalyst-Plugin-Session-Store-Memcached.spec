@@ -8,7 +8,7 @@ Release:	3
 Summary:	Memcached storage for Catalyst sessions
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/Catalyst-Plugin-Session-Store-Memcached-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
