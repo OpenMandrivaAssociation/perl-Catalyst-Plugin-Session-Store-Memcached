@@ -1,15 +1,13 @@
 %define upstream_name    Catalyst-Plugin-Session-Store-Memcached
-%define upstream_version 0.05
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.05
+Release:	5
 
 Summary:	Memcached storage for Catalyst sessions
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Plugin-Session-Store-Memcached
-Source0:	https://cpan.metacpan.org/authors/id/J/JJ/JJNAPIORK/Catalyst-Plugin-Session-Store-Memcached-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/J/JJ/JJNAPIORK/Catalyst-Plugin-Session-Store-Memcached-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -31,7 +29,7 @@ METHODS
     * store_session_data
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
